@@ -1,4 +1,5 @@
 # Week Fri 01/20/20 - 01/27/20
+* :o2: Review chapter:Data Center
 
 # Week Fri 01/13/20 - 01/19/20
 * :white_check_mark: Attended zoom student meeting on 01/14/20
