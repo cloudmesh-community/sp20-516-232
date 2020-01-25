@@ -14,4 +14,8 @@ Facebook broke ground on the Clonee data centre in 2016 and the first building b
   **Water withdrawl**: 188,000 cubic meters  
   **Construction Cost**: €300m
 
-![N|Solid](/images/clonee.png)
+![N|Solid](/images/clonee.png)  
+
+## 3: My own carbon foot print
+### 13.30 metric tons
+### US average carbon foot print 16.49 metric tons
