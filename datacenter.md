@@ -10,4 +10,4 @@ Facebook broke ground on the Clonee data centre in 2016 and the first building b
   **Company**: Facebook  
   **Building Sqrt**: 1,600,000  
 
-[![N|Solid](/images/clonee.pdf)]
+[![N|Solid](/images/clonee.png)]
