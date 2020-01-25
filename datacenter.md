@@ -19,3 +19,5 @@ Facebook broke ground on the Clonee data centre in 2016 and the first building b
 ## 3: My own carbon foot print
 ### 13.30 metric tons
 ### US average carbon foot print 16.49 metric tons
+
+## 4: Recyclers
