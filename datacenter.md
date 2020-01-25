@@ -11,6 +11,7 @@ Facebook broke ground on the Clonee data centre in 2016 and the first building b
   **Building Sqrt**: 1,600,000  
   **Electricity Use**: 200,000Mwh  
   **GHG Emission:**: 82,000metric tons  
-  **Water withdrawl**: 188,000 cubic meters
+  **Water withdrawl**: 188,000 cubic meters  
+  **Construction Cost**: €300m
 
 ![N|Solid](/images/clonee.png)
