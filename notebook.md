@@ -1,9 +1,10 @@
-## Ashok Reddy Singam: Weekly updates (SP20-516-232)
+## Notebook Ashok Singam SP20-516-232
 
 ### Week 2: Mon 01/20/20 - 01/27/20
+* Completed Data Center exercises
 * Submited book updates to books/chapters/cloud/multipass.md
 * Installed Multipass on Windows 10 Pro
-* Installed Phycharm,Gitbash
+* Installed Phycharm,Gitbash on Windows
 * Attended online meeting on 01/20/20
 * Reviewing chapter:Data Center
 
