@@ -72,10 +72,10 @@ An IT outage on May 27 that caused British Airways (BA) to cancel more than 400 
 
 ## References
 
-<https://baxtel.com/data-center/facebook-clonee-ireland>
-<https://www.rte.ie/news/ireland/2018/0914/993768-facebook-data-centre/>
-<https://www.datacenterknowledge.com/data-centers-that-recycle-waste-heat>
-<https://www.sustainabilitytelevision.com/blog/recycling-and-renewable-energy>
-<https://www.colocationamerica.com/blog/cooling-innovations-for-data-centers>
-<https://www.nature.com/articles/d41586-018-06610-y>
-<https://cloudscene.com/news/2017/07/datacenterdowntime/>
+<https://baxtel.com/data-center/facebook-clonee-ireland>  
+<https://www.rte.ie/news/ireland/2018/0914/993768-facebook-data-centre/>  
+<https://www.datacenterknowledge.com/data-centers-that-recycle-waste-heat>  
+<https://www.sustainabilitytelevision.com/blog/recycling-and-renewable-energy>  
+<https://www.colocationamerica.com/blog/cooling-innovations-for-data-centers>  
+<https://www.nature.com/articles/d41586-018-06610-y>  
+<https://cloudscene.com/news/2017/07/datacenterdowntime/>  
