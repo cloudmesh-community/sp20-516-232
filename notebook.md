@@ -1,6 +1,10 @@
 ## Notebook Ashok Singam SP20-516-232
 
-### Week 2: Mon 01/20/20 - 01/27/20
+### Week 3: Mon 01/27/20 - 02/02/20
+
+### Week 2: Mon 01/20/20 - 01/26/20
+* Worked on Mini Assignment: Multipass Provider.py
+* Installed python3.8.1 and cloudmesh
 * Completed Data Center exercises
 * Submited book updates to books/chapters/cloud/multipass.md
 * Installed Multipass on Windows 10 Pro
