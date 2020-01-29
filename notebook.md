@@ -1,6 +1,8 @@
 ## Notebook Ashok Singam SP20-516-232
 
 ### Week 3: Mon 01/27/20 - 02/02/20
+* Reading chapter: Architecture
+* Attented online meeting on 01/27/2020
 
 ### Week 2: Mon 01/20/20 - 01/26/20
 * Worked on Mini Assignment: Multipass Provider.py
