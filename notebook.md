@@ -1,6 +1,8 @@
 # Notebook Ashok Singam SP20-516-232
 
 ## Week 3: Mon 01/27/20 - 02/02/20
+* Working on Cloudmesh exercises
+* Chapter selection
 * Read chapter: Architecture from Cloud Computing book
 * Python language review: Dicts,f String, Classes and Modules
 * Attented online meeting on 01/27/2020
