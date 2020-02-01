@@ -21,7 +21,7 @@ Facebook broke ground on the Clonee data centre in 2016 and the first building b
   **Water withdrawl**: 188,000 cubic meters  
   **Construction Cost**: €300m
 
-![N|Solid](/images/clonee.png)  
+![N|Solid](images/clonee.png)  
 
 ## E.Datacenter.3: My own carbon foot print  
 
