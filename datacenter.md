@@ -2,8 +2,10 @@
 
 :o2: empty lines missing
 
+:o2: wrong usage of section numbering
+
 ## E.Datacenter.1: Define carbon footprint of data centers
-##### Carbon footprint of a data center is *Carbon dioxide emission coefficient of a Data Center*
+##### :o2: Carbon footprint of a data center is *Carbon dioxide emission coefficient of a Data Center*
 
 ## E.Datacenter.2.b: Clonee Data Center
 ### Overview
