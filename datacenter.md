@@ -58,8 +58,8 @@ Iceland is a leader in renewable energy. Iceland is the only country in the worl
 ## E.Datacenter.6: Data Center Cooling Technologies
 
 Cooling systems have evolved over the years. Traditionally, there are two ways of cooling a data center  
-     * air-based cooling  
-     * liquid-based cooling  
+* air-based cooling
+* liquid-based cooling  
 Data center smart assistant is a new and innovative way of cooling a data center. It is reported that the amount of money spent on cooling is more than required. A smart assistant like AdeptDC helps data centers save on costs as it identifies and lets the data center manager know when and how much cooling is needed. It uses smart cooling and machine learning to read CPU and GPU temperatures and processes that data in real time. This software will help data centers become more cooling efficient.
 
 ## E.Datacenter.7: Nature 
