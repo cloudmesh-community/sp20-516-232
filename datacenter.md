@@ -6,14 +6,13 @@ Carbon footprint of a data center is *Carbon dioxide emission coefficient of a D
 ## E.Datacenter.2.b: Clonee Data Center
 ### Overview
 Facebook broke ground on the Clonee data centre in 2016 and the first building became operational in December 2017. The centre is built on a 250-acre site. Brookfield Renewable supplying 100% renewable wind energy to this Data Center. 
-
-  Location: Clonee, Ireland  
-  Company: Facebook  
-  Building Sqrt: 1,600,000  
-  Electricity Use: 200,000Mwh  
-  GHG Emission: 82,000metric tons  
-  Water withdrawl: 188,000 cubic meters  
-  Construction Cost: €300m
+* Location: Clonee, Ireland
+* Company: Facebook
+* Building Sqrt: 1,600,000  
+* Electricity Use: 200,000Mwh  
+* GHG Emission: 82,000metric tons  
+* Water withdrawl: 188,000 cubic meters  
+* Construction Cost: €300m
 
 ![N|Solid](images/clonee.png)  
 
@@ -60,6 +59,7 @@ Iceland is a leader in renewable energy. Iceland is the only country in the worl
 Cooling systems have evolved over the years. Traditionally, there are two ways of cooling a data center  
 * air-based cooling
 * liquid-based cooling  
+
 Data center smart assistant is a new and innovative way of cooling a data center. It is reported that the amount of money spent on cooling is more than required. A smart assistant like AdeptDC helps data centers save on costs as it identifies and lets the data center manager know when and how much cooling is needed. It uses smart cooling and machine learning to read CPU and GPU temperatures and processes that data in real time. This software will help data centers become more cooling efficient.
 
 ## E.Datacenter.7: Nature 
