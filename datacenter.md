@@ -19,10 +19,8 @@ Facebook broke ground on the Clonee data centre in 2016 and the first building b
 
 ## E.Datacenter.3: My own carbon foot print  
 
-:o2: wrong markdown
-
- **My own carbon foot print**: 13.30 metric tons
- **US average carbon foot print**: 16.49 metric tons
+ My own carbon foot print: 13.30 metric tons
+ US average carbon foot print: 16.49 metric tons
 
 ## E.Datacenter.4: Recyclers  
 Recycling is linked with renewable energy as it helps in replenishing the natural resources of the earth. One of the biggest sources of renewable energy is *heat*. The concept of heat reuse is has been proven in high energy use facilities such as laboratories. Typical laboratory systems take energy from the exhaust air to precondition outside air. A similar concept exists for energy recovery ventilators in office buildings.  
@@ -60,8 +58,8 @@ Iceland is a leader in renewable energy. Iceland is the only country in the worl
 ## E.Datacenter.6: Data Center Cooling Technologies
 
 Cooling systems have evolved over the years. Traditionally, there are two ways of cooling a data center  
-     * air-based cooling  
-     * liquid-based cooling
+     air-based cooling  
+     liquid-based cooling  
 Data center smart assistant is a new and innovative way of cooling a data center. It is reported that the amount of money spent on cooling is more than required. A smart assistant like AdeptDC helps data centers save on costs as it identifies and lets the data center manager know when and how much cooling is needed. It uses smart cooling and machine learning to read CPU and GPU temperatures and processes that data in real time. This software will help data centers become more cooling efficient.
 
 ## E.Datacenter.7: Nature 
