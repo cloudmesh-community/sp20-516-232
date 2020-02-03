@@ -53,3 +53,43 @@ Volume in drive C is Windows7_OS
                6 File(s)          3,243 bytes
                2 Dir(s)  72,465,596,416 bytes free
 ~~~
+
+## E-cloudmesh-5 Output
+
+~~~
+
+1
+
++-------------------+--------------------------------------------------------------------------------+
+| Machine Attribute | Value                                                                          |
++-------------------+--------------------------------------------------------------------------------+
+| cpu_count         | 4                                                                              |
+| mac_version       |                                                                                |
+| machine           | ('AMD64',)                                                                     |
+| mem_available     | 3.0 GiB                                                                        |
+| mem_free          | 3.0 GiB                                                                        |
+| mem_percent       | 62.6%                                                                          |
+| mem_total         | 7.9 GiB                                                                        |
+| mem_used          | 4.9 GiB                                                                        |
+| node              | ('DESKTOP-UIRITEH',)                                                           |
+| platform          | Windows-10-10.0.18362-SP0                                                      |
+| processor         | ('Intel64 Family 6 Model 42 Stepping 7, GenuineIntel',)                        |
+| processors        | Windows                                                                        |
+| python            | 3.8.1 (tags/v3.8.1:1b293b6, Dec 18 2019, 23:11:46) [MSC v.1916 64 bit (AMD64)] |
+| release           | ('10',)                                                                        |
+| sys               | win32                                                                          |
+| system            | Windows                                                                        |
+| user              |                                                                                |
+| version           | 10.0.18362                                                                     |
+| win_version       | ('10', '10.0.18362', 'SP0', '')                                                |
++-------------------+--------------------------------------------------------------------------------+
++-------+-------+---------------------+-----+----------------------+------+---------+-------------+---------------------------------+
+| timer | time  | start               | tag | node                 | user | system  | mac_version | win_version                     |
++-------+-------+---------------------+-----+----------------------+------+---------+-------------+---------------------------------+
+| timer | 1.001 | 2020-02-03 00:25:35 |     | ('DESKTOP-UIRITEH',) |      | Windows |             | ('10', '10.0.18362', 'SP0', '') |
++-------+-------+---------------------+-----+----------------------+------+---------+-------------+---------------------------------+
+
+csv,timer,time,starttag,node,user,system,mac_version,win_version
+#csv,timer,1.001,None,('DESKTOP-UIRITEH',),,Windows,,('10', '10.0.18362', 'SP0', '')
+
+~~~
