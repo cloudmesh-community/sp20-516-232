@@ -1,6 +1,7 @@
 # Notebook Ashok Singam SP20-516-232
 
 ## Week 3: Mon 01/27/20 - 02/02/20
+* Completed polling at <https://piazza.com/class/k4xfd8nxutk4ka?cid=130>
 * Fixed datacenter.md as per professor comments
 * Working on Cloudmesh exercises
 * Chapter selection
