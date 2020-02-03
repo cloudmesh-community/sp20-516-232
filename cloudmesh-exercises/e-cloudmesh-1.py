@@ -1,4 +1,3 @@
-# sp20-516-232 E.Cloudmesh.Common.1 
 from cloudmesh.common.util import banner
 from cloudmesh.common.debug import VERBOSE
 from cloudmesh.common.util import HEADING
@@ -10,13 +9,23 @@ variables['debug'] = True
 variables['trace'] = True
 variables['verbose'] = 10
 
-# banner
-print ('')
-banner('Welcome to sp20-516-232 Class!')
+class CommonPrintUtil:
 
-#verbose
-m = {'ZipCode': '90503'}
-VERBOSE(m)
+    def __init__(self, str):
+        self.str = str
 
-#heading
-HEADING(txt='Welcome to sp20-516-232 Class!', c='#', color='HEADER')
+    def printBanner(self):
+        banner(self.str)
+
+    def demoVerbose(self):
+        m = {'ZipCode': '90503'}
+        VERBOSE(m)
+
+    def printHeader(self):
+        HEADING(self.str, c='#', color='HEADER')
+
+if __name__ == "__main__":
+    c = CommonPrintUtil("Welcome to sp20-516-232 Class!")
+    c.printBanner()
+    c.demoVerbose()
+    c.printHeader()
