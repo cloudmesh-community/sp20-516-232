@@ -27,8 +27,14 @@
 ## E-cloudmesh-2 Output
 
 ~~~
-Ashok Singam
-sp20-516-232
+# ----------------------------------------------------------------------
+# Demo dot dictionary
+# ----------------------------------------------------------------------
+
+John Doe 40 Male
+
+Process finished with exit code 0
+
 ~~~
 
 ## E-cloudmesh-3 Output
