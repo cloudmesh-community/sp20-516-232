@@ -22,14 +22,15 @@ Facebook broke ground on the Clonee data centre in 2016 and the first building b
 * Water withdrawl: 188,000 cubic meters  
 * Construction Cost: €300m
 
-![N|Solid](images/clonee.png){#fig:sp20-516-232-clonee}  
+![Data center in Clonee, Ireland](images/clonee.png){#fig:sp20-516-232-clonee}  
 
 ## E.Datacenter.3: My own carbon foot print  
 
- My own carbon foot print: 13.30 metric tons
- US average carbon foot print: 16.49 metric tons
+* My own carbon foot print: 13.30 metric tons
+* US average carbon foot print: 16.49 metric tons
 
-## E.Datacenter.4: Recyclers  
+## E.Datacenter.4: Recyclers
+
 Recycling is linked with renewable energy as it helps in replenishing the natural resources of the earth. One of the biggest sources of renewable energy is *heat*. The concept of heat reuse is has been proven in high energy use facilities such as laboratories. Typical laboratory systems take energy from the exhaust air to precondition outside air. A similar concept exists for energy recovery ventilators in office buildings.  
 
 A growing number of data centers are redirecting the heat from their hot aisles to nearby homes, offices, greenhouses and even swimming pools. The ability to re-use excess heat from servers is being built into new data centers, helping to improve the energy efficiency profile of these facilities.  
@@ -76,16 +77,16 @@ Demand for Internet and mobile-phone traffic skyrocketting, the information indu
 
 Computers in a data center work 24/7 at tremendously high rates that they get exceptionally hot. Sophisticated cooling systems need to be applied for these computers to continue working without overheating.  Exploring innovative cooling solutions and making existing ones cheaper will become more important in coming years.
 
-## E.Datacenter.8: British Airways (BA) Data Center outage :
+## E.Datacenter.8: British Airways (BA) Data Center outage
 
 An IT outage on May 27 that caused British Airways (BA) to cancel more than 400 flights and strand 75,000 passengers in one day. The airline was forced to ground hundreds of flights when its CBRE-managed Heathrow data center lost power. Later cause of the error was identified as human error. An engineer had disconnected a power supply at the data center near London’s Heathrow airport, and when it was reconnected, it caused a surge of power that resulted in major data center damage. This was no small accident. It’s estimated to have cost BA as much as 100 million euros. 
 
 ## References
 
-<https://baxtel.com/data-center/facebook-clonee-ireland>  
-<https://www.rte.ie/news/ireland/2018/0914/993768-facebook-data-centre/>  
-<https://www.datacenterknowledge.com/data-centers-that-recycle-waste-heat>  
-<https://www.sustainabilitytelevision.com/blog/recycling-and-renewable-energy>  
-<https://www.colocationamerica.com/blog/cooling-innovations-for-data-centers>  
-<https://www.nature.com/articles/d41586-018-06610-y>  
-<https://cloudscene.com/news/2017/07/datacenterdowntime/>  
+1. <https://baxtel.com/data-center/facebook-clonee-ireland>  
+1. <https://www.rte.ie/news/ireland/2018/0914/993768-facebook-data-centre/>  
+1. <https://www.datacenterknowledge.com/data-centers-that-recycle-waste-heat>  
+1. <https://www.sustainabilitytelevision.com/blog/recycling-and-renewable-energy>  
+1. <https://www.colocationamerica.com/blog/cooling-innovations-for-data-centers>  
+1. <https://www.nature.com/articles/d41586-018-06610-y>  
+1. <https://cloudscene.com/news/2017/07/datacenterdowntime/>  
