@@ -3,11 +3,17 @@
 * :o2: please learn markdown, attending eductaional section mandatory
 
 ## E.Datacenter.1: Define carbon footprint of data centers
+
 Carbon footprint of a data center is *Carbon dioxide emission coefficient of a Data Center*
 
 ## E.Datacenter.2.b: Clonee Data Center
+
 ### Overview
+
 Facebook broke ground on the Clonee data centre in 2016 and the first building became operational in December 2017. The centre is built on a 250-acre site. Brookfield Renewable supplying 100% renewable wind energy to this Data Center. 
+
+@fig:sp20-516-232-clonee shows a data center in Clonee Ireland.
+
 * Location: Clonee, Ireland
 * Company: Facebook
 * Building Sqrt: 1,600,000  
@@ -16,7 +22,7 @@ Facebook broke ground on the Clonee data centre in 2016 and the first building b
 * Water withdrawl: 188,000 cubic meters  
 * Construction Cost: €300m
 
-![N|Solid](images/clonee.png)  
+![N|Solid](images/clonee.png){#fig:sp20-516-232-clonee}  
 
 ## E.Datacenter.3: My own carbon foot print  
 
