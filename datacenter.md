@@ -10,7 +10,7 @@ Carbon footprint of a data center is *Carbon dioxide emission coefficient of a D
 
 ### Overview
 
-Facebook broke ground on the Clonee data centre in 2016 and the first building became operational in December 2017. The centre is built on a 250-acre site. Brookfield Renewable supplying 100% renewable wind energy to this Data Center. 
+Facebook broke ground on the Clonee data centre in 2016 and the first building became operational in December 2017. The centre is built on a 250-acre site. Brookfield Renewable supplying 100% renewable wind energy to this Data Center [@CloneeDC-sp20-516-232]. 
 
 @fig:sp20-516-232-clonee shows a data center in Clonee Ireland.
 
@@ -21,6 +21,12 @@ Facebook broke ground on the Clonee data centre in 2016 and the first building b
 * GHG Emission: 82,000metric tons  
 * Water withdrawl: 188,000 cubic meters  
 * Construction Cost: €300m
+
+### Clonee Campus History
+* 2015: Granted permission to build the campus
+* April 2016: Construction began
+* 2017: Announced it was adding a 28,000sq m (301,400sq ft) building and administrative space to bring the facility to 86,000sq m (925,700sq ft).
+* March 2019: FB announced that it would almost double the facility
 
 ![Data center in Clonee, Ireland](images/clonee.png){#fig:sp20-516-232-clonee}  
 
@@ -37,7 +43,7 @@ A growing number of data centers are redirecting the heat from their hot aisles 
 
 ### How Server Heat Recycling Works
 
-Temperatures in most data center hot aisles range from 80 to 115 degrees Fahrenheit. Data centers can use  heat pumps to boost the temperature of the waste heat, making it more valuable for use in district heating, often by transferring the heat to liquids that are easier to transport and incorporate into heating systems. 
+Temperatures in most data center hot aisles range from 80 to 115 degrees Fahrenheit. Data centers can use  heat pumps to boost the temperature of the waste heat, making it more valuable for use in district heating, often by transferring the heat to liquids that are easier to transport and incorporate into heating systems [@HeatRecycle-sp20-516-232]. 
 
 Some interesting examples of heat recycling are:
 
