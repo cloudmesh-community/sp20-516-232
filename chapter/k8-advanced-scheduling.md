@@ -16,4 +16,21 @@ One can configure node affinity through the pod specification file. We can speci
 
 ## Using taints and tolerations to repel pods from certain nodes
 
+Node affinity is about attracting Pod to Nodes. Taints are to refuse pod to be scheduled unless that pod has a matching toleration. Taints are more like blacklist so when there are many nodes and need to blacklist one then it is really easy to achieve this with Taints. 
+
+Taints and tolerations consist of a key, value, effect and operator
+
+1. **Key**: The key is any string, up to 253 characters. The key must begin with a letter or number, and may contain letters, numbers, hyphens, dots, and underscores.
+
+2. **Value**: Value is any string, up to 63 characters. The value must begin with a letter or number, and may contain letters, numbers, hyphens, dots, and underscores. 
+
+3. **Effect**: Effect can be 
+    * NoSchedule: New pods that do not match the taint are not scheduled onto that node. Existing pods on the node remain.
+    * PreferNoSchedule: New pods that do not match the taint might be scheduled onto that node, but the scheduler tries not to.Existing
+                        pods on the node remain. 
+    * NoExecute: New pods that do not match the taint cannot be scheduled onto that node.Existing pods on the node that do not have a                    matching toleration are removed.
+ 4. **Operator**:
+    * Equal: The key/value/effect parameters must match. This is the default.
+    * Exists: The key/effect parameters must match. You must leave a blank value parameter, which matches any.
+
 
