@@ -32,5 +32,41 @@ Taints and tolerations consist of a key, value, effect and operator
  4. **Operator**:
     * Equal: The key/value/effect parameters must match. This is the default.
     * Exists: The key/effect parameters must match. You must leave a blank value parameter, which matches any.
+    
+ ### Taint Example:
+ 
+ Setup a cluster with two nodes say node1 and node2. Before applying taint, try scheudling pods.
+ ~~~
+ kubectl run before-taint --image busybox --replicas 2 -- sleep 99
+ ~~~
 
+We can observe that both Nodes gets scheduled with pods:
+~~~
+ubuntu@node1:~$ kubectl get po -o wide
+NAME                            READY   STATUS    RESTARTS   AGE   IP          NODE    NOMINATED NODE   READINESS GATES
+before-taint-69c6778cfb-hznss   1/1     Running   0          15s   10.42.1.3   node2   <none>           <none>
+before-taint-69c6778cfb-267wm   1/1     Running   0          15s   10.42.0.8   node1   <none>           <none>
+ubuntu@node1:~$  
+~~~
 
+Taint node1 with effect:NoSchedule. This will stop new pods that will not match taint. 
+~~~
+ubuntu@node1:~$ kubectl taint node node1 node-type=production:NoSchedule
+node/node1 tainted
+~~~
+
+Now try scheduling new pods. 
+~~~
+ubuntu@node1:~$ kubectl run test-taint --image busybox --replicas 3 -- sleep 99
+kubectl run --generator=deployment/apps.v1 is DEPRECATED and will be removed in a future version. Use kubectl run --generator=run-pod/v1 or kubectl create instead.
+deployment.apps/test-taint created
+~~~
+
+We can observe that only node2 is scheduled with new Pods:
+~~~
+ubuntu@node1:~$ kubectl get po -o wide
+NAME                         READY   STATUS    RESTARTS   AGE   IP          NODE    NOMINATED NODE   READINESS GATES
+test-taint-dd4d5cff5-jbgx6   1/1     Running   0          19s   10.42.1.9   node2   <none>           <none>
+test-taint-dd4d5cff5-lpcv4   1/1     Running   0          19s   10.42.1.7   node2   <none>           <none>
+test-taint-dd4d5cff5-jsww7   1/1     Running   0          19s   10.42.1.8   node2   <none>           <none>
+~~~
