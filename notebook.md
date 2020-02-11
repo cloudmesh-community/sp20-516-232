@@ -1,7 +1,15 @@
 # Notebook Ashok Singam SP20-516-232
 
+## Week 5: Mon 02/10/20 - 02/16/20
+
+* Work on vms in chamelon cloud assignment
+* Learn Openstack
+* Enhance Chapter:Kubernetes Advanced Scheduling
+* Attented online meeting on 02/10/2020
+
 ## Week 4: Mon 02/03/20 - 02/09/20
 
+* Created multinode Kubernetes cluster using multipass vms
 * Trying to setup Multinode Kubernetes cluster on laptop
 * Studying Kubernetes Advanced Scheduling chapters
 * Fixing datacenter.md as per professor comments. 
