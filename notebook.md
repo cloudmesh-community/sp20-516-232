@@ -9,6 +9,7 @@
 
 ## Week 4: Mon 02/03/20 - 02/09/20
 
+* Installed cloudmesh multipass on Windows PRO after multiple attempts
 * Created multinode Kubernetes cluster using multipass vms
 * Trying to setup Multinode Kubernetes cluster on laptop
 * Studying Kubernetes Advanced Scheduling chapters
