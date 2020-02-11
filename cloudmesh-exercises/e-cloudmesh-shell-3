@@ -1,0 +1,17 @@
+# sp20-516-232 E.Cloudmesh.Shell.3
+
+(ENV3) c:\MS\516\cm\cloudmesh-ashok>cms ashok -f setup.cfg
+
+Usage:
+
+      ashok --file=FILE
+      ashok list
+
+This command does some useful things.
+
+ERROR: Could not execute the command. Please check usage with
+
+    cms help ashok
+
+
+(ENV3) c:\MS\516\cm\cloudmesh-ashok>
