@@ -18,6 +18,10 @@ For example, you could configure a pod to only run on a node with a specific CPU
 
 Required rules must be met before a pod can be scheduled on a node. Preferred rules specify that, if the rule is met, the scheduler tries to enforce the rules, but does not guarantee enforcement.
 
+@fig:sp20-516-232-NodeAffinity illustrates scheduling based node affinity 
+
+![Node Affinity](images/nodeAffinity.png){#fig:sp20-516-232-NodeAffinity}  
+
 ### Node affinity example
 
 Print list of the nodes
@@ -80,6 +84,10 @@ Taints and tolerations consist of a key, value, effect and operator
  4. **Operator**:
     * Equal: The key/value/effect parameters must match. This is the default.
     * Exists: The key/effect parameters must match. You must leave a blank value parameter, which matches any.
+    
+ @fig:sp20-516-232-Taint illustrates scheduling based node taints 
+
+![Taint and Tolerations](images/taint.png){#fig:sp20-516-232-Taint}  
     
  ### Taint Example:
  
