@@ -2,7 +2,7 @@
 
 Advanced Scheduling fetatures makes Kubernetes a very flexible,policy-rich, topology-aware, workload-specific scheduler. These features provide a wide range of options to specify conditions for assigning pods to particular worker nodes that satisfy a condition. With advanced Scheduling features one can influence where pods can be scheduled among availalbe Nodes. In Kubernetes 1.6 four advanced scheduling features are added. Scope of this chapter is limited to first two features. 
 
-1. Node affinity/anti-affinity
+1. Node affinity
 2. Taints and tolerations, 
 3. Pod affinity/anti-affinity 
 4. Custom schedulers. 
@@ -27,7 +27,7 @@ node1   Ready     <none>    5m        v1.9.4
 node2   Ready     <none>    5m        v1.9.4
 ~~~
 
-Now label node1:
+Now label node1 as Size:M1
 ~~~
 kubectl label nodes node1 node1=Size:M1
 ~~~
@@ -45,11 +45,12 @@ affinity:
 
 ~~~
 
+Deploy 4 replicas of image Busybox
 ~~~
 kubectl run  test-affinity --image busybox --replicas 4 -- sleep 99
 ~~~
 
-We can observe all the pods are scheduled on node1
+We can observe that all the pods are scheduled on node1. No pod is scheduled on node2!
 ~~~
 ubuntu@node1:~$ kubectl get po -o wide
 NAME                            READY   STATUS    RESTARTS   AGE   IP          NODE    NOMINATED NODE   READINESS GATES
