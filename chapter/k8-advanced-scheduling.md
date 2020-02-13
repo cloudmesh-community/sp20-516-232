@@ -29,9 +29,35 @@ node2   Ready     <none>    5m        v1.9.4
 
 Now label node1:
 ~~~
-kubectl label nodes node1 node1=size:M1
+kubectl label nodes node1 node1=Size:M1
 ~~~
 
+Now deploy an app Busybox on the node1. In deployment yaml file, configure NodeAffinity for node1:
+~~~
+affinity:
+        nodeAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+            nodeSelectorTerms:
+            - matchExpressions:
+              - key: "node1"
+                operator: In
+                values: ["Size:M1"]
+
+~~~
+
+~~~
+kubectl run  test-affinity --image busybox --replicas 4 -- sleep 99
+~~~
+
+We can observe all the pods are scheduled on node1
+~~~
+ubuntu@node1:~$ kubectl get po -o wide
+NAME                            READY   STATUS    RESTARTS   AGE   IP          NODE    NOMINATED NODE   READINESS GATES
+test-affinity-dd4d5cff5-jbgx6   1/1     Running   0          15s   10.42.1.9   node1   <none>           <none>
+test-affinity-dd4d5cff5-lpcv4   1/1     Running   0          15s   10.42.1.7   node1   <none>           <none>
+test-affinity-dd4d5cff5-jsww7   1/1     Running   0          15s   10.42.1.8   node1   <none>           <none>
+~~~
+   
 ## Using taints and tolerations to repel pods from certain nodes
 
 Node affinity is about attracting Pod to Nodes. Taints are to refuse pod to be scheduled unless that pod has a matching toleration. Taints are more like blacklist so when there are many nodes and need to blacklist one then it is really easy to achieve this with Taints. 
