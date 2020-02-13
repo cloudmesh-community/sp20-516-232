@@ -20,7 +20,7 @@ Required rules must be met before a pod can be scheduled on a node. Preferred ru
 
 @fig:sp20-516-232-NodeAffinity illustrates scheduling based node affinity 
 
-![Node Affinity](images/nodeAffinity.png){#fig:sp20-516-232-NodeAffinity}  
+<img src="images/nodeAffinity.png" width="600" height="350"/>{#fig:sp20-516-232-NodeAffinity}  
 
 ### Node affinity example
 
@@ -87,7 +87,7 @@ Taints and tolerations consist of a key, value, effect and operator
     
  @fig:sp20-516-232-Taint illustrates scheduling based node taints 
 
-<img src="images/taint.png" alt="taint" width="200"/>{#fig:sp20-516-232-Taint}  
+<img src="images/taint.png" alt="taint" width="600" height="350"/>{#fig:sp20-516-232-Taint}  
     
  ### Taint Example:
  
