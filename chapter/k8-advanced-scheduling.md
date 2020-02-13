@@ -1,5 +1,7 @@
 # Advanced Scheduling in Kubernetes sp20-516-232, Singam, Ashok
 
+With Advanced Scheduling features of Kubernetes one can influence where pods can be scheduled among availalbe Nodes. 
+
 ## Node affinity to attract pods  
 
 Node affinity is a set of rules used by the scheduler to determine where a pod can be placed. The rules are defined using custom labels on nodes and label selectors specified in pods. Node affinity allows a pod to specify an affinity (or anti-affinity) towards a group of nodes it can be placed on. The node does not have control over the placement. 
