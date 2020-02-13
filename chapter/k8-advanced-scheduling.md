@@ -1,6 +1,11 @@
-# Advanced Scheduling in Kubernetes sp20-516-232, Singam, Ashok
+# Advanced Scheduling Kubernetes sp20-516-232, Singam, Ashok
 
-Advanced Scheduling fetatures makes Kubernetes a very flexible,policy-rich, topology-aware, workload-specific scheduler. These features provide a wide range of options to specify conditions for assigning pods to particular worker nodes that satisfy a condition. With advanced Scheduling features one can influence where pods can be scheduled among availalbe Nodes. 
+Advanced Scheduling fetatures makes Kubernetes a very flexible,policy-rich, topology-aware, workload-specific scheduler. These features provide a wide range of options to specify conditions for assigning pods to particular worker nodes that satisfy a condition. With advanced Scheduling features one can influence where pods can be scheduled among availalbe Nodes. In Kubernetes 1.6 four advanced scheduling features are added. Scope of this chapter is limited to first two features. 
+
+1. Node affinity/anti-affinity
+2. Taints and tolerations, 
+3. Pod affinity/anti-affinity 
+4. Custom schedulers. 
 
 ## Node affinity to attract pods  
 
@@ -13,8 +18,19 @@ For example, you could configure a pod to only run on a node with a specific CPU
 
 Required rules must be met before a pod can be scheduled on a node. Preferred rules specify that, if the rule is met, the scheduler tries to enforce the rules, but does not guarantee enforcement.
 
-### Configuring Node Affinity
-One can configure node affinity through the pod specification file. We can specify a required rule, a preferred rule, or both. If you specify both, the node must first meet the required rule, then attempts to meet the preferred rule.
+### Node affinity example
+
+Print list of the nodes
+~~~
+NAME    STATUS    ROLES     AGE       VERSION
+node1   Ready     <none>    5m        v1.9.4
+node2   Ready     <none>    5m        v1.9.4
+~~~
+
+Now label node1:
+~~~
+kubectl label nodes node1 node1=size:M1
+~~~
 
 ## Using taints and tolerations to repel pods from certain nodes
 
