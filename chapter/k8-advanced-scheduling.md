@@ -131,3 +131,5 @@ test-taint-dd4d5cff5-jsww7   1/1     Running   0          19s   10.42.1.8   node
 
 1. <https://kubernetes.io/blog/2017/03/advanced-scheduling-in-kubernetes/>  
 2. <https://medium.com/@dominik.tornow/the-kubernetes-scheduler-cd429abac02f>
+3. <https://thenewstack.io/implementing-advanced-scheduling-techniques-with-kubernetes/>
+4. <https://docs.microsoft.com/en-us/azure/aks/operator-best-practices-advanced-scheduler>
