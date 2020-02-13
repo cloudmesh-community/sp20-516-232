@@ -1,6 +1,6 @@
 # Advanced Scheduling in Kubernetes sp20-516-232, Singam, Ashok
 
-With Advanced Scheduling features of Kubernetes one can influence where pods can be scheduled among availalbe Nodes. 
+Advanced Scheduling fetatures makes Kubernetes a very flexible,policy-rich, topology-aware, workload-specific scheduler. These features provide a wide range of options to specify conditions for assigning pods to particular worker nodes that satisfy a condition. With advanced Scheduling features one can influence where pods can be scheduled among availalbe Nodes. 
 
 ## Node affinity to attract pods  
 
@@ -19,6 +19,9 @@ One can configure node affinity through the pod specification file. We can speci
 ## Using taints and tolerations to repel pods from certain nodes
 
 Node affinity is about attracting Pod to Nodes. Taints are to refuse pod to be scheduled unless that pod has a matching toleration. Taints are more like blacklist so when there are many nodes and need to blacklist one then it is really easy to achieve this with Taints. 
+
+* A taint applied to a node indicates that only specific pods can be scheduled on them.
+* A toleration is applied to a pod allows them to tolerate a node's taint.
 
 Taints and tolerations consist of a key, value, effect and operator
 
