@@ -32,7 +32,7 @@ Now label node1 as Size:M1
 kubectl label nodes node1 node1=Size:M1
 ~~~
 
-Now deploy an app Busybox on the node1. In deployment yaml file, configure NodeAffinity for node1:
+Now for an app called Busybox, configure NodeAffinity in deployment yaml file to refer node1 label:
 ~~~
 affinity:
         nodeAffinity:
