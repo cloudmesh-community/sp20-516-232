@@ -118,3 +118,8 @@ test-taint-dd4d5cff5-jbgx6   1/1     Running   0          19s   10.42.1.9   node
 test-taint-dd4d5cff5-lpcv4   1/1     Running   0          19s   10.42.1.7   node2   <none>           <none>
 test-taint-dd4d5cff5-jsww7   1/1     Running   0          19s   10.42.1.8   node2   <none>           <none>
 ~~~
+
+## References
+
+1. <https://kubernetes.io/blog/2017/03/advanced-scheduling-in-kubernetes/>  
+2. <https://medium.com/@dominik.tornow/the-kubernetes-scheduler-cd429abac02f>
