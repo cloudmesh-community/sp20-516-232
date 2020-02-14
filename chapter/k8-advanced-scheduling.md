@@ -16,6 +16,8 @@ this is a terminal
 this is code
 ```
 
+:o2: test: why can you not write `< none >` without spaces and must write `\<none\>`
+
 Advanced Scheduling fetatures makes Kubernetes a very flexible,policy-rich, topology-aware, workload-specific scheduler. These features provide a wide range of options to specify conditions for assigning pods to particular worker nodes that satisfy a condition. With advanced Scheduling features one can influence where pods can be scheduled among availalbe Nodes. In Kubernetes 1.6 four advanced scheduling features are added. Scope of this chapter is limited to first two features. 
 
 1. Node affinity
@@ -46,8 +48,8 @@ Print list of the nodes
 
 ```
 NAME    STATUS    ROLES     AGE       VERSION
-node1   Ready     <none>    5m        v1.9.4
-node2   Ready     <none>    5m        v1.9.4
+node1   Ready     \<none\>    5m        v1.9.4
+node2   Ready     \<none\>    5m        v1.9.4
 ```
 
 Now label node1 as Size:M1
