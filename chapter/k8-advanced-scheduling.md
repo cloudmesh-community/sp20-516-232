@@ -79,9 +79,9 @@ We can observe that all the pods are scheduled on node1. No pod is scheduled on 
 ~~~
 ubuntu@node1:~$ kubectl get po -o wide
 NAME                            READY   STATUS    RESTARTS   AGE   IP          NODE    NOMINATED NODE   READINESS GATES
-test-affinity-dd4d5cff5-jbgx6   1/1     Running   0          15s   10.42.1.9   node1   <none>           <none>
-test-affinity-dd4d5cff5-lpcv4   1/1     Running   0          15s   10.42.1.7   node1   <none>           <none>
-test-affinity-dd4d5cff5-jsww7   1/1     Running   0          15s   10.42.1.8   node1   <none>           <none>
+test-affinity-dd4d5cff5-jbgx6   1/1     Running   0          15s   10.42.1.9   node1   < none >           < none >
+test-affinity-dd4d5cff5-lpcv4   1/1     Running   0          15s   10.42.1.7   node1   < none >           < none >
+test-affinity-dd4d5cff5-jsww7   1/1     Running   0          15s   10.42.1.8   node1   < none >           < none >
 ~~~
    
 ## Using taints and tolerations to repel pods from certain nodes
@@ -122,8 +122,8 @@ We can observe that both Nodes gets scheduled with pods:
 ~~~
 ubuntu@node1:~$ kubectl get po -o wide
 NAME                            READY   STATUS    RESTARTS   AGE   IP          NODE    NOMINATED NODE   READINESS GATES
-before-taint-69c6778cfb-hznss   1/1     Running   0          15s   10.42.1.3   node2   <none>           <none>
-before-taint-69c6778cfb-267wm   1/1     Running   0          15s   10.42.0.8   node1   <none>           <none>
+before-taint-69c6778cfb-hznss   1/1     Running   0          15s   10.42.1.3   node2   < none >           < none >
+before-taint-69c6778cfb-267wm   1/1     Running   0          15s   10.42.0.8   node1   < none >           < none >
 ubuntu@node1:~$  
 ~~~
 
