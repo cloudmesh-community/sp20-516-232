@@ -9,7 +9,7 @@
 answer:
 
 ```bash
-this is a terminal
+$ ls # this is a terminal command see the $ at the start
 ```
 
 ```
