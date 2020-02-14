@@ -43,11 +43,12 @@ Required rules must be met before a pod can be scheduled on a node. Preferred ru
 ### Node affinity example
 
 Print list of the nodes
-~~~
+
+```
 NAME    STATUS    ROLES     AGE       VERSION
 node1   Ready     <none>    5m        v1.9.4
 node2   Ready     <none>    5m        v1.9.4
-~~~
+```
 
 Now label node1 as Size:M1
 ~~~
