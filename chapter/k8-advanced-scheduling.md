@@ -16,7 +16,7 @@ $ ls # this is a terminal command see the $ at the start
 this is code
 ```
 
-:o2: test: why can you not write `< none >` without spaces and must write `\<none\>`
+:o2: test: why can you not write `< none >` without spaces `
 
 Advanced Scheduling fetatures makes Kubernetes a very flexible,policy-rich, topology-aware, workload-specific scheduler. These features provide a wide range of options to specify conditions for assigning pods to particular worker nodes that satisfy a condition. With advanced Scheduling features one can influence where pods can be scheduled among availalbe Nodes. In Kubernetes 1.6 four advanced scheduling features are added. Scope of this chapter is limited to first two features. 
 
@@ -48,8 +48,8 @@ Print list of the nodes
 
 ```
 NAME    STATUS    ROLES     AGE       VERSION
-node1   Ready     \<none\>    5m        v1.9.4
-node2   Ready     \<none\>    5m        v1.9.4
+node1   Ready     < none >    5m        v1.9.4
+node2   Ready     < none >    5m        v1.9.4
 ```
 
 Now label node1 as Size:M1
@@ -144,9 +144,9 @@ We can observe that only node2 is scheduled with new Pods:
 ~~~
 ubuntu@node1:~$ kubectl get po -o wide
 NAME                         READY   STATUS    RESTARTS   AGE   IP          NODE    NOMINATED NODE   READINESS GATES
-test-taint-dd4d5cff5-jbgx6   1/1     Running   0          19s   10.42.1.9   node2   <none>           <none>
-test-taint-dd4d5cff5-lpcv4   1/1     Running   0          19s   10.42.1.7   node2   <none>           <none>
-test-taint-dd4d5cff5-jsww7   1/1     Running   0          19s   10.42.1.8   node2   <none>           <none>
+test-taint-dd4d5cff5-jbgx6   1/1     Running   0          19s   10.42.1.9   node2   < none >         < none >
+test-taint-dd4d5cff5-lpcv4   1/1     Running   0          19s   10.42.1.7   node2   < none >         < none >
+test-taint-dd4d5cff5-jsww7   1/1     Running   0          19s   10.42.1.8   node2   < none >         < none >
 ~~~
 
 ## References
