@@ -2,7 +2,9 @@
 
 ## Week 5: Mon 02/10/20 - 02/16/20
 
-* Work on vms in chamelon cloud assignment
+* Working on Project proposal
+* Updated chapter page as per professor comments
+* Worked on vms in chamelon cloud assignment
 * Learn Openstack
 * Enhance Chapter:Kubernetes Advanced Scheduling
 * Attented online meeting on 02/10/2020
