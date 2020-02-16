@@ -1,6 +1,6 @@
 # Advanced Scheduling Kubernetes sp20-516-232, Singam, Ashok
 
-Advanced Scheduling fetatures makes Kubernetes a very flexible,policy-rich, topology-aware, workload-specific scheduler. These features provide a wide range of options to specify conditions for assigning pods to particular worker nodes that satisfy a condition. With advanced Scheduling features one can influence where pods can be scheduled among availalbe Nodes. In Kubernetes 1.6 four advanced scheduling features are added. Scope of this chapter is limited to first two features. 
+Advanced Scheduling fetatures makes Kubernetes a very flexible,policy-rich, topology-aware, workload-specific scheduler. These features provide a wide range of options to specify conditions for assigning pods to particular worker nodes that satisfy a condition. With advanced Scheduling features one can influence where pods can be scheduled among availalbe Nodes. In Kubernetes 1.6 four advanced scheduling features are added [@KubeAdvShedule-sp20-516-232]. Scope of this chapter is limited to first two features . 
 
 1. Node affinity
 2. Taints and tolerations, 
@@ -9,7 +9,7 @@ Advanced Scheduling fetatures makes Kubernetes a very flexible,policy-rich, topo
 
 ## Node affinity to attract pods  
 
-Node affinity is a set of rules used by the scheduler to determine where a pod can be placed. The rules are defined using custom labels on nodes and label selectors specified in pods. Node affinity allows a pod to specify an affinity (or anti-affinity) towards a group of nodes it can be placed on. The node does not have control over the placement. 
+Node affinity is a set of rules used by the scheduler to determine where a pod can be placed. The rules are defined using custom labels on nodes and label selectors specified in pods. Node affinity allows a pod to specify an affinity (or anti-affinity) towards a group of nodes it can be placed on. The node does not have control over the placement [@KubeImplAdvShedule-sp20-516-232]. 
 
 For example, you could configure a pod to only run on a node with a specific CPU or in a specific availability zone. There are two types of node affinity rules: 
 
@@ -69,7 +69,7 @@ test-affinity-dd4d5cff5-jsww7   1/1     Running   0          15s   10.42.1.8   n
    
 ## Using taints and tolerations to repel pods from certain nodes
 
-Node affinity is about attracting Pod to Nodes. Taints are to refuse pod to be scheduled unless that pod has a matching toleration. Taints are more like blacklist so when there are many nodes and need to blacklist one then it is really easy to achieve this with Taints. 
+Node affinity is about attracting Pod to Nodes. Taints are to refuse pod to be scheduled unless that pod has a matching toleration. Taints are more like blacklist so when there are many nodes and need to blacklist one then it is really easy to achieve this with Taints [@KubeShedule-sp20-516-232]. 
 
 * A taint applied to a node indicates that only specific pods can be scheduled on them.
 * A toleration is applied to a pod allows them to tolerate a node's taint.
