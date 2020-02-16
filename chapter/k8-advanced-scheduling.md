@@ -1,21 +1,5 @@
 # Advanced Scheduling Kubernetes sp20-516-232, Singam, Ashok
 
-:o2: test: How do you include images in markdown for the books?
-
-:o2: test: how do you do verbatim/code
-
-:o2: test: what cames before and after a code block?
-
-answer:
-
-```bash
-$ ls # this is a terminal command see the $ at the start
-```
-
-```
-this is code
-```
-
 Advanced Scheduling fetatures makes Kubernetes a very flexible,policy-rich, topology-aware, workload-specific scheduler. These features provide a wide range of options to specify conditions for assigning pods to particular worker nodes that satisfy a condition. With advanced Scheduling features one can influence where pods can be scheduled among availalbe Nodes. In Kubernetes 1.6 four advanced scheduling features are added. Scope of this chapter is limited to first two features. 
 
 1. Node affinity
@@ -107,9 +91,8 @@ Taints and tolerations consist of a key, value, effect and operator
     
  @fig:sp20-516-232-Taint illustrates scheduling based node taints 
 
-:o2: images/taint.png
+![Taint](images/taint.png){#fig:sp20-516-232-Taint}  
 
-    
  ### Taint Example:
  
  Setup a cluster with two nodes say node1 and node2. Before applying taint, try scheudling pods.
