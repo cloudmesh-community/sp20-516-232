@@ -36,9 +36,7 @@ Required rules must be met before a pod can be scheduled on a node. Preferred ru
 
 @fig:sp20-516-232-NodeAffinity illustrates scheduling based node affinity 
 
-:o2: you did the image wrong, look it up in our notation.md file most all books have it
-
-:o2: images/nodeAffinity.png
+![Node Affinity](images/nodeAffinity.png){#fig:sp20-516-232-NodeAffinity}  
 
 ### Node affinity example
 
