@@ -18,6 +18,7 @@ cc@232-ashok-02:~$
 
 ## Start a vm with cloudmesh and run the commands
 
+### Print key list:
 ```bash
 (ENV3) ashok@Ashoks-MacBook-Pro ~ % cms key list                        
 +---------+---------+-------------------------------------------------+----------------+
@@ -27,7 +28,7 @@ cc@232-ashok-02:~$
 +---------+---------+-------------------------------------------------+----------------+
 Timer: 0.0000s (key list)
 ```
-Print security group list:
+### Print security group list:
 
 ```bash
 (ENV3) ashok@Ashoks-MacBook-Pro ~ % cms sec group list --cloud=chameleon
