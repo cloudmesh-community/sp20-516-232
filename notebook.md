@@ -1,5 +1,10 @@
 # Notebook Ashok Singam SP20-516-232
 
+## Week 6: Mon 02/17/20 - 02/23/20
+
+* Completed vms in chamelon cloud assignment.Had issues with Windows OS. Switched to Mac and able to complete
+* Attented online meeting on 02/17/2020
+
 ## Week 5: Mon 02/10/20 - 02/16/20
 
 * Working on Project proposal
