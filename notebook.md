@@ -4,7 +4,8 @@
 
 *  Read chapter notes on REST
 *  Continue work on Volume Management project 
-* :+1: Completed vms in chamelon cloud assignment.Had issues with Windows OS. Switched to Mac and able to complete
+* :+1: Start VMs using Cloudmesh.Had issues with Windows OS. Switched to Mac and able to complete
+       <https://github.com/cloudmesh-community/sp20-516-232/blob/master/vminchamelon.md>
 * :+1: Attented online meeting on 02/17/2020
 
 ## Week 5: Mon 02/10/20 - 02/16/20
