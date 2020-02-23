@@ -1,5 +1,6 @@
 # Advanced Scheduling Kubernetes sp20-516-232, Singam, Ashok
 
+
 :o2: markdown dows not allo the use of <none> so we can not include it in the chapters
         
 Advanced Scheduling fetatures makes Kubernetes a very flexible,policy-rich, topology-aware, workload-specific scheduler. These features provide a wide range of options to specify conditions for assigning pods to particular worker nodes that satisfy a condition. With advanced Scheduling features one can influence where pods can be scheduled among availalbe Nodes. In Kubernetes 1.6 four advanced scheduling features are added [@KubeAdvShedule-sp20-516-232]. Scope of this chapter is limited to first two features . 
