@@ -28,7 +28,7 @@ Facebook broke ground on the Clonee data centre in 2016 and the first building b
 * 2017: Announced it was adding a 28,000sq m (301,400sq ft) building and administrative space to bring the facility to 86,000sq m (925,700sq ft).
 * March 2019: FB announced that it would almost double the facility
 
-![Data center in Clonee, Ireland](images/clonee.png){#fig:sp20-516-232-clonee}  
+![Data center in Clonee, Ireland [@www-image-cloneeDS]](images/clonee.png){#fig:sp20-516-232-clonee}  
 
 ## E.Datacenter.3: My own carbon foot print  
 
