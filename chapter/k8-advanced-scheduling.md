@@ -123,7 +123,7 @@ kubectl run --generator=deployment/apps.v1 is DEPRECATED and will be removed in 
 deployment.apps/test-taint created
 ```
 
-We can observe that microk8s-vm-w1 is not assigned with new Pods:
+We can observe that microk8s-vm-w1 is not assigned with any Pods:
 
 ```
 $ kubectl get po -o wide
