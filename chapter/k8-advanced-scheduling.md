@@ -88,7 +88,7 @@ Taints and tolerations consist of a key, value, effect and operator
     * Equal: The key/value/effect parameters must match. This is the default.
     * Exists: The key/effect parameters must match. You must leave a blank value parameter, which matches any.
     
- ### Taint Example:
+ ### Taint Demo:
  
  Before applying taint on any node, try scheudling an App called busybox based on seeded image busybox.
  
@@ -134,7 +134,7 @@ test-taint-dd4d5cff5-jsww7   1/1     Running   0          19s   10.42.1.8   micr
 test-taint-64fc5f64b7-zxsh   1/1     Running   0          19s   10.42.1.8   microk8s-vm-w2   *none*           *none*
 ```
 
-### Toleration example:
+### Toleration Demo:
 
 A toleration is how a pod declares that it can bypass a taint. It is basically a pass that will allow the pod onto any node with any taint. Define a deployment yaml file: podToleration.yaml with toleration as below. Make sure toeration matches with taint of node:microk8s-vm-w1. 
 
@@ -165,11 +165,12 @@ spec:
         effect: "NoSchedule"
 ```
 
-Deploy the pod
+Deploy the pod with toleration:
 ```
 kubectl apply -f podToleration.yaml
 deployment.apps/with-toleration-app created
 ```
+
 Now query pods. We can observe that even though node:microk8s-vm-w1 is tainted, some of the pods are able to get scheudle on microk8s-vm-w1 because of toleration:
 
 ```
