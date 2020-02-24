@@ -134,6 +134,60 @@ test-taint-dd4d5cff5-jsww7   1/1     Running   0          19s   10.42.1.8   micr
 test-taint-64fc5f64b7-zxsh   1/1     Running   0          19s   10.42.1.8   microk8s-vm-w2   *none*           *none*
 ```
 
+### Toleration example:
+
+A toleration is how a pod declares that it can bypass a taint. It is basically a pass that will allow the pod onto any node with any taint. Define a deployment yaml file: podToleration.yaml with toleration as below. Make sure toeration matches with taint of node:microk8s-vm-w1. 
+
+```
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: with-toleration-app
+  labels:
+    app: nginx
+spec:
+ replicas: 6
+ selector:
+   matchLabels:
+     app: nginx
+ template:
+   metadata:
+      labels:
+        app: nginx
+   spec:
+      containers:
+      - name: nginx
+        image: nginx:alpine
+      tolerations:
+      - key: "node-type"
+        operator: "Equal"
+        value: "production"
+        effect: "NoSchedule"
+```
+
+Deploy the pod
+```
+kubectl apply -f podToleration.yaml
+deployment.apps/with-toleration-app created
+```
+Now query pods. We can observe that even though node:microk8s-vm-w1 is tainted, some of the pods are able to get scheudle on microk8s-vm-w1 because of toleration:
+
+```
+NAME                                  READY   STATUS    RESTARTS   AGE   IP          NODE             NOMINATED NODE   READINESS GATES
+with-toleration-app-d9db86b77-flxw2   1/1     Running   0          19s   10.42.1.14   microk8s-vm-w2   *none*           *none*
+with-toleration-app-d9db86b77-rhhg7   1/1     Running   0          19s   10.42.1.15   microk8s-vm-w1   *none*           *none*
+with-toleration-app-d9db86b77-5bn76   1/1     Running   0          19s   10.42.1.16   microk8s-vm-w3   *none*           *none*
+with-toleration-app-d9db86b77-wgmkf   1/1     Running   0          19s   10.42.0.29   microk8s-vm-w2   *none*           *none*
+with-toleration-app-d9db86b77-xw7xq   1/1     Running   0          19s   10.42.0.28   microk8s-vm-w1   *none*           *none*
+with-toleration-app-d9db86b77-bkdgw   1/1     Running   0          19s   10.42.0.30   microk8s-vm-w2   *none*           *none*
+```
+
+To remove taint we can use command:
+
+```
+kubectl taint nodes microk8s-vm-w1 node-type=NoSchedule-
+```
+
 ## References
 
 1. <https://kubernetes.io/blog/2017/03/advanced-scheduling-in-kubernetes/>  
