@@ -66,7 +66,7 @@ test-affinity-dd4d5cff5-lpcv4   1/1     Running   0          15s   10.42.1.7   n
 test-affinity-dd4d5cff5-jsww7   1/1     Running   0          15s   10.42.1.8   node1   *none*           *none* 
 ```
    
-## Using taints and tolerations to repel pods from certain nodes
+## Taints and tolerations 
 
 Node affinity is about attracting Pod to Nodes. Taints are to refuse pod to be scheduled unless that pod has a matching toleration. Taints are more like blacklist so when there are many nodes and need to blacklist one then it is really easy to achieve this with Taints [@KubeShedule-sp20-516-232]. 
 
@@ -96,7 +96,7 @@ Taints and tolerations consist of a key, value, effect and operator
  $ kubectl run before-taint --image busybox --replicas 4 -- sleep 99
 ```
 
-We can observe that both Nodes gets scheduled with pods:
+We can observe that all the Nodes gets scheduled with pods:
 
 ```
 $ kubectl get po -o wide
@@ -108,7 +108,7 @@ before-taint-69c6778cfb-267wm   1/1     Running   0          15s   10.42.0.4   m
 ubuntu@node1:~$  
 ```
 
-Taint microk8s-vm-w1 with effect:NoSchedule. This will stop new pods that will not match taint. 
+Now taint one of the node for ex:microk8s-vm-w1 with effect:NoSchedule. This will stop scheduling of pods on the node:microk8s-vm-w1. 
 
 ```
 $ kubectl taint node microk8s-vm-w1 node-type=production:NoSchedule
