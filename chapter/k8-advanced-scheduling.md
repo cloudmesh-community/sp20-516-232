@@ -90,45 +90,48 @@ Taints and tolerations consist of a key, value, effect and operator
     
  ### Taint Example:
  
- Setup a cluster with two nodes say node1 and node2. Before applying taint, try scheudling pods.
+ Before applying taint on any node, try scheudling an App called busybox based on seeded image busybox.
  
 ```
- $ kubectl run before-taint --image busybox --replicas 2 -- sleep 99
+ $ kubectl run before-taint --image busybox --replicas 4 -- sleep 99
 ```
 
 We can observe that both Nodes gets scheduled with pods:
 
 ```
 $ kubectl get po -o wide
-NAME                            READY   STATUS    RESTARTS   AGE   IP          NODE    NOMINATED NODE   READINESS GATES
-before-taint-69c6778cfb-hznss   1/1     Running   0          15s   10.42.1.3   node2   *none*           *none*
-before-taint-69c6778cfb-267wm   1/1     Running   0          15s   10.42.0.8   node1   *none*           *none*
+NAME                            READY   STATUS    RESTARTS   AGE   IP          NODE            NOMINATED NODE   READINESS GATES
+before-taint-69c6778cfb-hznss   1/1     Running   0          15s   10.42.1.3   microk8s-vm-w1   *none*           *none*
+before-taint-64fc5f64b7-qktdr   1/1     Running   0          15s   10.42.0.8   microk8s-vm-w3   *none*           *none*
+before-taint-64fc5f64b7-5x6bt   1/1     Running   0          15s   10.42.0.5   microk8s-vm-w2   *none*           *none*
+before-taint-69c6778cfb-267wm   1/1     Running   0          15s   10.42.0.4   microk8s-vm-w1   *none*           *none*
 ubuntu@node1:~$  
 ```
 
-Taint node1 with effect:NoSchedule. This will stop new pods that will not match taint. 
+Taint microk8s-vm-w1 with effect:NoSchedule. This will stop new pods that will not match taint. 
 
 ```
-$ kubectl taint node node1 node-type=production:NoSchedule
-node/node1 tainted
+$ kubectl taint node microk8s-vm-w1 node-type=production:NoSchedule
+node/microk8s-vm-w1 tainted
 ```
 
 Now try scheduling new pods. 
 
 ```
-$ kubectl run test-taint --image busybox --replicas 3 -- sleep 99
+$ kubectl run test-taint --image busybox --replicas 4 -- sleep 99
 kubectl run --generator=deployment/apps.v1 is DEPRECATED and will be removed in a future version. Use kubectl run --generator=run-pod/v1 or kubectl create instead.
 deployment.apps/test-taint created
 ```
 
-We can observe that only node2 is scheduled with new Pods:
+We can observe that microk8s-vm-w1 is not assigned with new Pods:
 
 ```
 $ kubectl get po -o wide
-NAME                         READY   STATUS    RESTARTS   AGE   IP          NODE    NOMINATED NODE   READINESS GATES
-test-taint-dd4d5cff5-jbgx6   1/1     Running   0          19s   10.42.1.9   node2   *none*           *none*
-test-taint-dd4d5cff5-lpcv4   1/1     Running   0          19s   10.42.1.7   node2   *none*           *none*
-test-taint-dd4d5cff5-jsww7   1/1     Running   0          19s   10.42.1.8   node2   *none*           *none*
+NAME                         READY   STATUS    RESTARTS   AGE   IP          NODE            NOMINATED NODE   READINESS GATES
+test-taint-dd4d5cff5-jbgx6   1/1     Running   0          19s   10.42.1.9   microk8s-vm-w2   *none*           *none*
+test-taint-dd4d5cff5-lpcv4   1/1     Running   0          19s   10.42.1.7   microk8s-vm-w3   *none*           *none*
+test-taint-dd4d5cff5-jsww7   1/1     Running   0          19s   10.42.1.8   microk8s-vm-w3   *none*           *none*
+test-taint-64fc5f64b7-zxsh   1/1     Running   0          19s   10.42.1.8   microk8s-vm-w2   *none*           *none*
 ```
 
 ## References
