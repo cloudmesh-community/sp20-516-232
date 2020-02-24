@@ -68,7 +68,7 @@ test-affinity-dd4d5cff5-jsww7   1/1     Running   0          15s   10.42.1.8   n
    
 ## Taints and tolerations 
 
-Node affinity is about attracting Pod to Nodes. Taints are to refuse pod to be scheduled unless that pod has a matching toleration. Taints are more like blacklist so when there are many nodes and need to blacklist one then it is really easy to achieve this with Taints [@KubeShedule-sp20-516-232]. 
+When we submit workloads to run in a cluster, the scheduler determines where to place the Pods associated with the workload. The scheduler can place a Pod on any available node that satisfies the Pod's CPU, memory, or any other resource requirements. There must be some control over which workloads can run on a particular pool of nodes. Node affinity is one way of control by attracting Pod to Nodes. Taints are to refuse pod to be scheduled unless that pod has a matching toleration. Taints are more like blacklist so when there are many nodes and need to blacklist one then it is really easy to achieve this with Taints [@KubeShedule-sp20-516-232]. 
 
 * A taint applied to a node indicates that only specific pods can be scheduled on them.
 * A toleration is applied to a pod allows them to tolerate a node's taint.
