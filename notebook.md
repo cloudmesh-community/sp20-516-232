@@ -2,13 +2,13 @@
 
 ## Week 7: Mon 02/24/20 - 03/01/20
 
-*  Implemented multipass mount method wrt volume project
+*  :+1: Implemented multipass mount method wrt volume project
 *  Continue work on Volume Management project 
 * :+1: Attented online meeting on 02/24/2020
 
 ## Week 6: Mon 02/17/20 - 02/23/20
 
-*  :+1 Read chapter notes on REST
+*  :+1: Read chapter notes on REST
 *  Continue work on Volume Management project 
 * :+1: Start VMs using Cloudmesh.Had issues with Windows OS. Switched to Mac and able to complete
        <https://github.com/cloudmesh-community/sp20-516-232/blob/master/vminchamelon.md>
