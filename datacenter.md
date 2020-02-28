@@ -92,13 +92,3 @@ Computers in a data center work 24/7 at tremendously high rates that they get ex
 ## E.Datacenter.8: British Airways (BA) Data Center outage
 
 An IT outage on May 27 that caused British Airways (BA) to cancel more than 400 flights and strand 75,000 passengers in one day. The airline was forced to ground hundreds of flights when its CBRE-managed Heathrow data center lost power. Later cause of the error was identified as human error. An engineer had disconnected a power supply at the data center near London’s Heathrow airport, and when it was reconnected, it caused a surge of power that resulted in major data center damage. This was no small accident. It’s estimated to have cost BA as much as 100 million euros [@BAOutage-sp20-516-232]. 
-
-## References
-
-1. <https://baxtel.com/data-center/facebook-clonee-ireland>  
-1. <https://www.rte.ie/news/ireland/2018/0914/993768-facebook-data-centre/>  
-1. <https://www.datacenterknowledge.com/data-centers-that-recycle-waste-heat>  
-1. <https://www.sustainabilitytelevision.com/blog/recycling-and-renewable-energy>  
-1. <https://www.colocationamerica.com/blog/cooling-innovations-for-data-centers>  
-1. <https://www.nature.com/articles/d41586-018-06610-y>  
-1. <https://cloudscene.com/news/2017/07/datacenterdowntime/>  
