@@ -2,6 +2,8 @@
 
 ## Week 7: Mon 02/24/20 - 03/01/20
 
+*  :+1: Implemented "OpenAPI REST Service via Introspection". 
+        Output <https://github.com/cloudmesh-community/sp20-516-232/blob/master/rest/cpuoutput.md>
 *  :+1: Implemented multipass mount method wrt volume project
 *  :o2: Continue work on Volume Management project 
 *  :+1: Attented online meeting on 02/24/2020
