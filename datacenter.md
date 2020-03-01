@@ -1,11 +1,5 @@
 # Datacenter,  Ashok Singam sp20-516-232
 
-:o2: please learn markdown, attending eductaional section mandatory
-
-:o2: som citation labels ar wrong in caption
-
-:o2: convert refrences section to bibtex and use in text where needed
-
 ## E.Datacenter.1: Define carbon footprint of data centers
 
 Carbon footprint of a data center is *Carbon dioxide emission coefficient of a Data Center*
