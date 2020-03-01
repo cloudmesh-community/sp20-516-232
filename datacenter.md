@@ -77,7 +77,7 @@ Iceland is a leader in renewable energy. It has remarkable geography and geology
 
 ## E.Datacenter.6: Data Center Cooling Technologies
 
-Cooling systems have evolved over the years. Traditionally, there are two ways of cooling a data center. @fig:sp20-516-232-cooling shows cooling usijng air and liquid.  
+Cooling systems have evolved over the years. Traditionally, there are two ways of cooling a data center. @fig:sp20-516-232-cooling shows cooling using air and liquid.  
 
 * air-based cooling
 * liquid-based cooling  
