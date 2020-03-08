@@ -4,9 +4,9 @@
 
 ## Week 8: Mon 03/02/20 - 03/08/20
 
-:o2: Continue work on Volume Management project. Implemented Create and Delete volume methods
+*  :o2: Continue work on Volume Management project. Implemented Create and Delete volume methods
      for Openstack cloud
-:+1: Attented online meeting on 03/02/2020
+*  :+1: Attented online meeting on 03/02/2020
 
 ## Week 7: Mon 02/24/20 - 03/01/20
 
