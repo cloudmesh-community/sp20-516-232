@@ -4,7 +4,7 @@
 
 *  :o2: Continue work on Volume Management project. Exploring list method for Oracle
 *  :o2: Continue work on Volume Management project. Added list method for Openstack cloud
-*  :+1: Attented online meeting on 03/02/2020
+*  :+1: Attented online meeting on 03/09/2020
 
 ## Week 8: Mon 03/02/20 - 03/08/20
 
