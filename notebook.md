@@ -1,5 +1,14 @@
 # Notebook Ashok Singam SP20-516-232
 
+## Week 11: Mon 03/23/20 - 03/29/20
+
+## Week 10: Mon 03/16/20 - 03/22/20
+
+*  :+1: Completed Create Volume for Oracle
+*  :+1: Completed Create Volume for Openstack
+*  :+1: Completed List Volume method for Oracle
+*  :+1: Attented online meeting on 03/16/2020
+
 ## Week 9: Mon 03/09/20 - 03/15/20
 
 *  :o2: Continue work on Volume Management project. Exploring list method for Oracle
