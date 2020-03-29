@@ -1,6 +1,12 @@
 # Notebook Ashok Singam SP20-516-232
 
+## Week 12: Mon 03/30/20 - 04/05/20
+
+
 ## Week 11: Mon 03/23/20 - 03/29/20
+
+*  :o2: Worked on documeantion for Oracle at Readme 
+*  :+1: Completed Delete,Attach and Detach methods for Oracle
 
 ## Week 10: Mon 03/16/20 - 03/22/20
 
