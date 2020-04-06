@@ -10,7 +10,7 @@
 
 ## Week 11: Mon 03/23/20 - 03/29/20
 
-*  :o2: Worked on documeantion for Oracle at Readme 
+*  :+1: Worked on documeantion for Oracle at Readme 
 *  :+1: Completed Delete,Attach and Detach methods for Oracle
 
 ## Week 10: Mon 03/16/20 - 03/22/20
@@ -22,13 +22,13 @@
 
 ## Week 9: Mon 03/09/20 - 03/15/20
 
-*  :o2: Continue work on Volume Management project. Exploring list method for Oracle
-*  :o2: Continue work on Volume Management project. Added list method for Openstack cloud
+*  :+1: Continue work on Volume Management project. Exploring list method for Oracle
+*  :+1: Continue work on Volume Management project. Added list method for Openstack cloud
 *  :+1: Attented online meeting on 03/09/2020
 
 ## Week 8: Mon 03/02/20 - 03/08/20
 
-*  :o2: Continue work on Volume Management project. Implemented Create and Delete volume methods
+*  :+1: Continue work on Volume Management project. Implemented Create and Delete volume methods
      for Openstack cloud
 *  :+1: Attented online meeting on 03/02/2020
 
@@ -39,13 +39,13 @@
 *  :+1: Implemented "OpenAPI REST Service via Introspection". 
         Output <https://github.com/cloudmesh-community/sp20-516-232/blob/master/rest/cpuoutput.md>
 *  :+1: Implemented multipass mount method wrt volume project
-*  :o2: Continue work on Volume Management project 
+*  :+1: Continue work on Volume Management project 
 *  :+1: Attented online meeting on 02/24/2020
 
 ## Week 6: Mon 02/17/20 - 02/23/20
 
 *  :+1: Read chapter notes on REST
-*  :o2: Continue work on Volume Management project 
+*  :+1: Continue work on Volume Management project 
 *  :+1: Start VMs using Cloudmesh.Had issues with Windows OS. Switched to Mac and able to complete
        <https://github.com/cloudmesh-community/sp20-516-232/blob/master/vminchamelon.md>
 *  :+1: Attented online meeting on 02/17/2020
