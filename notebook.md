@@ -2,6 +2,8 @@
 
 ## Week 13: Mon 04/06/20 - 04/12/20
 
+*  :+1: Attented online meeting on 04/06/2020
+
 ## Week 12: Mon 03/30/20 - 04/05/20
 
 *  :+1: Added create,list,attach,detach and delete pytests for Oracle Volume provider
