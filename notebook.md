@@ -1,7 +1,13 @@
 # Notebook Ashok Singam SP20-516-232
 
+## Week 14: Mon 04/13/20 - 04/19/20
+
+*  :+1: Attented online meeting on 04/13/2020
+
 ## Week 13: Mon 04/06/20 - 04/12/20
 
+*  :+1: Worked on Add Tag method at Oracle provider
+*  :+1: Worked on merging pytests
 *  :+1: Attented online meeting on 04/06/2020
 
 ## Week 12: Mon 03/30/20 - 04/05/20
