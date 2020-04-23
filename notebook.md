@@ -2,6 +2,9 @@
 
 ## Week 15: Mon 04/20/20 - 04/26/20
 
+:+1: Fixed issues with pytests
+:+1: Attented online meeting on 04/21/2020
+:+1: Attented internal volume meeting 
 
 ## Week 14: Mon 04/13/20 - 04/19/20
 
