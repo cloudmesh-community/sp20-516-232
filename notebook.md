@@ -2,6 +2,10 @@
 
 ## Week 16: Mon 04/27/20 - 05/03/20
 
+* :+1: Generate benchmarking chart as per latest logs of all clouds
+* :+1: Inspect code and cleanup of Oracle and Openstack providers
+* :+1: Attented online meeting on 04/28/2020
+
 ## Week 15: Mon 04/20/20 - 04/26/20
 
 * :+1: Generated volume services benchmarking report 
