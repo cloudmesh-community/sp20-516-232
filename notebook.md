@@ -1,5 +1,10 @@
 # Notebook Ashok Singam SP20-516-232
 
+## Week 17: Mon 05/04/20 - 05/10/20
+
+* :+1: Finalize project. Added minor changes to Openstack provider list method
+* :+1: Attented online meeting on 05/04/2020
+
 ## Week 16: Mon 04/27/20 - 05/03/20
 
 * :+1: Generate benchmarking chart as per latest logs of all clouds
