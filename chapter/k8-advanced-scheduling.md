@@ -1,4 +1,4 @@
-# Advanced Scheduling Kubernetes 
+# Advanced Scheduling in Kubernetes 
 
 Ashok Singam, sp20-516-232
         
